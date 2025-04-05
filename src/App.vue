@@ -1,25 +1,33 @@
 <template>
-  <div>
-    
-  </div>
+    <div class="layout">
+      <Sidebar />
+      <div class="main-content">
+        <h1></h1>
+      </div>
+    </div>
 </template>
 
 <script>
+import Sidebar from './components/SidebarSide.vue';
 
 export default {
   name: 'App',
   components: {
+    Sidebar
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
+.layout {
+  display: flex;
+  margin: 0px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
 }
 </style>
