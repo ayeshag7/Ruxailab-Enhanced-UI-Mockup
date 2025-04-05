@@ -2,7 +2,7 @@
     <div class="layout">
       <Sidebar />
       <div class="main-content">
-        <h1></h1>
+        
       </div>
     </div>
 </template>

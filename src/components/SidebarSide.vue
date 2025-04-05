@@ -218,9 +218,8 @@
     border-color: rgba(0, 0, 0, 1);
     border-style: solid;
     border-width: 1px;
-    width: -44px;
     flex-shrink: 0;
-    height: screen;
+    height: 100vh;
   }
   </style>
   
