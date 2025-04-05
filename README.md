@@ -1,4 +1,4 @@
-# ruxailab-ui
+# Ruxailab Enhanced UI Mockup
 
 ## Project setup
 ```
