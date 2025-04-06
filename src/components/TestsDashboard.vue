@@ -1,9 +1,9 @@
 <template>
-    <main class="dashboard">
+    <main id="welcome" class="dashboard">
 
       <header class="search-header">
         <div class="search-container">
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/71000b3222d76f9ba00ba6cfe3f7c884f7812171?placeholderIfAbsent=true&apiKey=86a6ac88689a433c814ee3adda3c6435" class="search-icon" />
+          <img src="../assets/search-bar.svg" class="search-icon" />
           <span class="search-placeholder"> Search Ayesha's Workspace </span>
         </div>
 
@@ -44,7 +44,7 @@
     name: "TestsDashboard",
     components: {
       TestCard,
-    },
+    }
   };
   </script>
   
