@@ -69,8 +69,7 @@
   
   @media (max-width: 991px) {
     .sidebar {
-      padding-left: 12px;
-      padding-right: 12px;
+      display: none;
     }
   }
   

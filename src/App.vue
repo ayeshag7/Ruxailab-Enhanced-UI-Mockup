@@ -2,18 +2,20 @@
     <div class="layout">
       <Sidebar />
       <div class="main-content">
-        
+          <TestsDashboard/>
       </div>
     </div>
 </template>
 
 <script>
 import Sidebar from './components/SidebarSide.vue';
+import TestsDashboard from './components/TestsDashboard.vue';
 
 export default {
   name: 'App',
   components: {
-    Sidebar
+    Sidebar,
+    TestsDashboard
   }
 }
 </script>
@@ -27,7 +29,7 @@ export default {
 
 .main-content {
   flex: 1;
-  padding: 20px;
+  padding: 0px;
   text-align: left;
 }
 </style>
