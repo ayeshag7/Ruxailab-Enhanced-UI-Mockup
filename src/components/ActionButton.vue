@@ -27,17 +27,17 @@
     display: flex;
     align-items: center;
     gap: 40px;
-    border-radius: 16px;
+    border-radius: 12px;
     background-color: rgba(255, 105, 5, 1);
-    margin-top: 44px;
-    padding: 10px 35px;
+    margin-top: 40px;
+    padding: 7px 30px;
     font-family:
       Rowdies,
       -apple-system,
       Roboto,
       Helvetica,
       sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: rgba(255, 255, 255, 1);
     font-weight: bolder;
     border: none;
@@ -45,8 +45,8 @@
   }
 
 .icon {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   display: block;
 }
   

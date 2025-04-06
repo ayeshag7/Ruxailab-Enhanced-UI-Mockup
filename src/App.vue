@@ -24,6 +24,9 @@ export default {
 
 .layout {
   display: flex;
+  flex-direction: row;
+  gap: 0px;
+  width: fit-content;
   margin: 0px;
 }
 

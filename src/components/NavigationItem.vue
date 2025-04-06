@@ -31,19 +31,19 @@
   
   <style scoped>
   .nav-item {
-    border-radius: 16px;
+    border-radius: 12px;
     display: flex;
-    margin-top: 12px;
-    padding: 10px 39px;
+    margin-top: 7px;
+    padding: 10px 28px;
     align-items: center;
-    gap: 29px;
+    gap: 30px;
     font-family:
       Rubik,
       -apple-system,
       Roboto,
       Helvetica,
       sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: rgba(0, 0, 0, 1);
     font-weight: 400;
     text-align: center;
@@ -63,7 +63,7 @@
     aspect-ratio: 1.03;
     object-fit: contain;
     object-position: center;
-    width: 28px;
+    width: 24px;
     flex-shrink: 0;
   }
   

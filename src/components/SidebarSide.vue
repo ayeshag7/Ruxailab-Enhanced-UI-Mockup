@@ -58,13 +58,13 @@
   .sidebar {
     background-color: rgba(255, 255, 255, 1);
     display: flex;
+    flex-direction: row;
     padding-left: 18px;
     padding-right: 44px;
     padding-bottom: 8px;
     align-items: stretch;
     gap: 35px;
-    flex-wrap: wrap;
-    width: 400px;
+    width: 355px;
   }
   
   @media (max-width: 991px) {
@@ -93,7 +93,7 @@
   
   .section-header {
     color: rgba(0, 0, 0, 1);
-    font-size: 24px;
+    font-size: 20px;
     font-family:
       Rowdies,
       -apple-system,
@@ -104,7 +104,7 @@
     text-align: center;
     align-self: start;
     margin-top: 44px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     margin-left: 4px;
   }
   
@@ -146,13 +146,9 @@
   .templates-container {
     align-self: center;
     display: flex;
-    margin-top: 64px;
+    margin-top: 56px;
     margin-left: 12px;
-    width: 100%;
-    max-width: 443px;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 20px;
+    width: 95%;
     font-family:
       Rubik,
       -apple-system,
@@ -185,7 +181,7 @@
     aspect-ratio: 0.95;
     object-fit: contain;
     object-position: center;
-    width: 30px;
+    width: 24px;
     flex-shrink: 0;
   }
   
@@ -199,7 +195,7 @@
     aspect-ratio: 1;
     object-fit: contain;
     object-position: center;
-    width: 20px;
+    width: 16px;
     margin-top: auto;
     margin-bottom: auto;
     flex-shrink: 0;
@@ -209,7 +205,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 14px;
+    gap: 12px;
   }
   
   .sidebar-divider {

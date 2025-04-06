@@ -32,7 +32,7 @@
     border-width: 1px;
     border-style: solid;
     padding: 4px 12px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     white-space: nowrap;
     font-family:

@@ -80,7 +80,7 @@
     border-radius: 12px;
     background-color: rgba(255, 255, 255, 1);
     border: 2px solid rgba(255, 105, 5, 1);
-    width: 900px;
+    width: 800px;
     max-width: 100%;
     padding: 7px 10px;
   }
@@ -147,11 +147,11 @@
     background-color: rgba(79, 177, 42, 0.1);
     border: 1px solid rgba(79, 177, 42, 1);
     padding: 0 28px;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400;
     white-space: nowrap;
-    width: 64px;
-    height: 64px;
+    width: 56px;
+    height: 56px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -173,14 +173,14 @@
   }
   
   .test-name {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
     align-self: start;
     margin: 0;
   }
   
   .test-creator {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     margin-top: 7px;
     margin-bottom: 0;
@@ -244,17 +244,16 @@
   }
   
   .count-icon {
-    aspect-ratio: 1.17;
     object-fit: contain;
     object-position: center;
-    width: 30px;
+    width:24px;
     flex-shrink: 0;
   }
   
   .update-date {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
-    margin-top: 14px;
+    margin-top: 7px;
     margin-bottom: 0;
   }
   </style>
