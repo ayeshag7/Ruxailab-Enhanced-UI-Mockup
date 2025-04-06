@@ -28,10 +28,10 @@
 
         <div class="templates-container">
             <div class="icon-text-container">
-              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/86b0363d083f5426bbd5e29e8c5b8923217dd0c5?placeholderIfAbsent=true&apiKey=86a6ac88689a433c814ee3adda3c6435" class="template-icon" alt="Templates icon" />
+              <img src="../assets/template.png" class="template-icon" alt="Templates icon" />
               <span class="templates-text">Templates</span>
             </div>
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/0b3ba69bbce7c1ac3426494b3fffd3a553a48bf0?placeholderIfAbsent=true&apiKey=86a6ac88689a433c814ee3adda3c6435" class="settings-icon" alt="Settings icon" />
+          <img src="../assets/create2.png" class="settings-icon" alt="Settings icon" />
         </div>
 
       </div>
