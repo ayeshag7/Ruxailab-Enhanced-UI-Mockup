@@ -47,11 +47,18 @@
   
   .custom-shepherd-step .shepherd-text span {
     font-weight: normal;
-    font-size: 15px;
+    font-size: 14px;
+  }
+
+  #icon {
+    font-weight: normal;
+    font-size: 14px;
+    padding-left: 0px;
+    border: none;
   }
 
   .shepherd-footer {
-    padding-top: 0px;
+    padding-top: 12px;
     padding-bottom: 10px;
     padding-left: 0px;
     padding-right: 8px;

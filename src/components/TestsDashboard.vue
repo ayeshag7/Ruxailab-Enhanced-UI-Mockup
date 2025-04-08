@@ -2,7 +2,7 @@
     <main id="welcome" class="dashboard">
 
       <header class="search-header">
-        <div class="search-container">
+        <div class="search-container" id="search-bar">
           <img src="../assets/search-bar.svg" class="search-icon" />
           <span class="search-placeholder"> Search Ayesha's Workspace </span>
         </div>
@@ -39,11 +39,15 @@
   
   <script>
   import TestCard from "./TestCard.vue";
+  import tour from '@/shepherd/tour.js';
   
   export default {
     name: "TestsDashboard",
     components: {
       TestCard,
+    },
+    mounted() {
+    tour.start();
     }
   };
   </script>
